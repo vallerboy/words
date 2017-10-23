@@ -57,7 +57,7 @@ public class Game {
         System.out.print("Podaj słowo: ");
         String typedWord = scanner.nextLine();
 
-        if(!typedWord.equalsIgnoreCase(typedWord)){
+        if(!typedWord.equalsIgnoreCase(originalWord)){
             timeStart -= 5 * 1000;
             System.out.println("BLAD!");
         }
